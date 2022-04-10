@@ -80,7 +80,7 @@ body{
     position: absolute;
     width: 250px;
     height: 200px;
-    left: 34.8%;
+    left: 58em;
     top: 113.4%;
     border-radius: 50%;
     z-index: 2;
@@ -361,4 +361,30 @@ nav{
 }
 .rigth{
     left: 60%;
+}
+
+
+
+@media (max-width:390px) {
+    *{
+        font-size: 10px;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+    .clouds{
+        position: absolute;
+        top: 200%;
+    }
+}
+
+.card-rating{
+position: absolute;
+width: 300px;
+height: 200px;
+left: 42%;
+top: 45%;
+}
+a{
+    cursor: pointer;
 }
